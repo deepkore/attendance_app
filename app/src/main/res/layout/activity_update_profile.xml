@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    tools:context=".UpdateProfileActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:minHeight="?attr/actionBarSize"
+        app:title="UPDATE PASSWORD"
+        app:titleMarginStart="25dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/mainToolbar">
+
+        <!-- Edit Text for Password -->
+        <EditText
+            android:id="@+id/editoldPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Current Password"
+            android:inputType="textPassword"
+            android:background="@drawable/textbox_gradient"
+            android:layout_marginBottom="8dp"
+            android:drawableStart="@drawable/baseline_lock_24"
+            android:drawableLeft="@drawable/baseline_lock_24"/>
+
+        <!-- Edit Text for Password -->
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="New Password"
+            android:inputType="textPassword"
+            android:background="@drawable/textbox_gradient"
+            android:layout_marginBottom="8dp"
+            android:drawableStart="@drawable/baseline_lock_reset_24"
+            android:drawableLeft="@drawable/baseline_lock_reset_24"/>
+
+        <!-- Edit Text for Confirm Password -->
+        <EditText
+            android:id="@+id/editConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:background="@drawable/textbox_gradient"
+            android:layout_marginBottom="8dp"
+            android:drawableStart="@drawable/baseline_password_24"
+            android:drawableLeft="@drawable/baseline_password_24"/>
+
+        <!-- Button to Confirm password -->
+        <Button
+            android:id="@+id/changePasswordButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/blue"
+            android:text="UPDATE PASSWORD"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="18dp"
+           />
+
+        <!-- Button to Update Profile -->
+       <!-- <Button
+            android:id="@+id/updatePasswordButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue"
+            android:text="VIEW PROFILE"
+            android:layout_marginTop="300dp" />-->
+
+    </LinearLayout>
+</RelativeLayout>

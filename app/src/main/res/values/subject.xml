@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="subject_types">
+        <item>Select Subject</item>
+        <item>CMA</item>
+        <item>OS</item>
+        <item>c++</item>
+        <item>DBMS</item>
+        <item>JAVA</item>
+        <item>DSA</item>
+        <item>ML</item>
+        <item>CN</item>
+        <item>HRM</item>
+        <!-- Add other user types as needed -->
+    </array>
+</resources>

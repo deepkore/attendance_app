@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:gravity="center"
+    android:id="@+id/attendanceListItem"
+    android:textColor="@color/black"
+    android:background="@color/red">
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="0dp"
+        android:layout_weight="0.4"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@drawable/gridlinesgreen"
+       />
+    <TextView
+        android:id="@+id/rollNo"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:text="220970012"
+        android:textColor="@color/black"
+        android:background="@drawable/gridlinesgreen"
+        />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:text="Akash"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@drawable/gridlinesgreen"
+        />
+
+
+</LinearLayout>

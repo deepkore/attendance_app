@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    tools:context=".AddCourseActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        app:title="ADD Course"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/mainToolbar">
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp">
+
+
+
+                <Spinner
+                    android:id="@+id/etStream"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/textbox_gradient"
+                    android:hint="Select Stream"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="16dp"/>
+
+                <Spinner
+                    android:id="@+id/etSemester"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/textbox_gradient"
+                    android:hint="Select Semester"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="16dp"/>
+
+                <EditText
+                    android:id="@+id/etSubject1"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="Subject 1"
+                    android:inputType="text"
+                    android:background="@drawable/textbox_gradient"
+                    android:layout_marginBottom="8dp" />
+
+                <EditText
+                    android:id="@+id/etSubject2"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="Subject 2"
+                    android:inputType="text"
+                    android:background="@drawable/textbox_gradient"
+                    android:layout_marginBottom="8dp" />
+
+                <EditText
+                    android:id="@+id/etSubject3"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="Subject 3"
+                    android:inputType="text"
+                    android:background="@drawable/textbox_gradient"
+                    android:layout_marginBottom="8dp" />
+
+                <EditText
+                    android:id="@+id/etSubject4"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="Subject 4"
+                    android:inputType="text"
+                    android:background="@drawable/textbox_gradient"
+                    android:layout_marginBottom="8dp" />
+
+                <EditText
+                    android:id="@+id/etSubject5"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="Subject 5"
+                    android:inputType="text"
+                    android:background="@drawable/textbox_gradient"
+                    android:layout_marginBottom="8dp" />
+
+                <Button
+                    android:id="@+id/btnAddCourse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Add Course"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:backgroundTint="@color/blue"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="40dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen"
+    android:padding="40dp"
+    android:orientation="vertical"
+    tools:context=".RegistrationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:text="Hello,"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up!"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/layout1">
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Name"
+            android:textStyle="bold"
+            android:background="@drawable/textbox_gradient"
+            android:layout_marginBottom="8dp"
+            android:drawableStart="@drawable/baseline_3p_24"
+            android:drawableLeft="@drawable/baseline_3p_24"/>
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Admin ID"
+            android:inputType="textEmailAddress"
+            android:textStyle="bold"
+            android:background="@drawable/textbox_gradient"
+            android:layout_marginBottom="8dp"
+            android:drawableStart="@drawable/baseline_perm_identity_24"
+            android:drawableLeft="@drawable/baseline_perm_identity_24"/>
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Password"
+            android:textStyle="bold"
+            android:inputType="textPassword"
+            android:background="@drawable/textbox_gradient"
+            android:layout_marginBottom="8dp"
+            android:drawableStart="@drawable/baseline_lock_24"
+            android:drawableLeft="@drawable/baseline_lock_24"/>
+
+        <Spinner
+            android:id="@+id/userTypeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/textbox_gradient"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"/>
+
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="REGISTER"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/blue"/>
+    <TextView
+        android:layout_margin="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Only for admins"
+        android:textColor="@color/bloodRed"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

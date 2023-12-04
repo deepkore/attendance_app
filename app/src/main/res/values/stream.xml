@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="stream_types">
+        <item>Select Stream</item>
+        <item>BTech DSE</item>
+        <item>MTech DSE</item>
+        <item>MCA</item>
+        <!-- Add other user types as needed -->
+    </array>
+</resources>

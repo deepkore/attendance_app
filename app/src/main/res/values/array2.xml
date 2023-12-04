@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="year_types">
+        <item>Select Year</item>
+        <item>1st year</item>
+        <item>2nd year</item>
+        <!-- Add other user types as needed -->
+    </array>
+</resources>

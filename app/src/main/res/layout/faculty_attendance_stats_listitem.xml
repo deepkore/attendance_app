@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewattendanceitem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/rollNoTextview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="220970066"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="@drawable/gridlinesgreen"/>
+
+    <TextView
+        android:id="@+id/nameTextview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Deep"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="@drawable/gridlinesgreen"
+        />
+
+    <TextView
+        android:id="@+id/attendedTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:textSize="20dp"
+        android:text="4"
+        android:background="@drawable/gridlinesgreen"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/percentageTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:textSize="20dp"
+        android:text="85%"
+        android:gravity="center"
+        android:background="@drawable/gridlinesred"
+        />
+</LinearLayout>
